@@ -14,6 +14,14 @@
     --font-weight-content: 400;
     --mobile-width: 375px;
     --desktop-width: 1440px;
+    --font-size-xl: 5rem;
+    --font-size-600: 1.5rem;
+    --font-size-500: 1.25rem;
+    --font-size-400: 1rem;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @media (max-width:480px) {
