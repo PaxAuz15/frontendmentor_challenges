@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --first-color-primary: hsl(215, 51%, 70%);
+    --second-color-primary: hsl(178, 100%, 50%);
+    --color-main-bg: hsl(217, 54%, 11%);
+    --color-main-card-bg: hsl(216, 50%, 16%);
+    --color-line-card: hsl(215, 32%, 27%);
+    --color-white-font: hsl(0, 0%, 100%);
+    --font-size-paragraph: 1.125rem;
+    --font-family: 'Outfit', sans-serif;
+    --font-weight-footer: 300;
+    --font-weight-header: 600;
+    --font-weight-content: 400;
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+}
+
+@media (max-width:480px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1280px) {
+
+}
+
+@media (min-width:1281px) {
+
+}
