@@ -26,6 +26,23 @@
     padding: 0;
 }
 
+/* font-size control */
+h1 {
+    font-size: 2rem;
+}
+
+.etherum-time-data p {
+    font-size: 0.9rem;
+}
+
+.etherum-price-data p, .header-image p {
+    font-size: 1rem;
+}
+
+.card-avatar {
+    font-size: 0.8rem;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -36,6 +53,7 @@ body {
     background: var(--color-main-bg);
     height: 100vh;
     gap: 20px;
+    padding: 20px;
 }
 
 .card {
@@ -46,6 +64,7 @@ body {
     background: var(--color-main-card-bg);
     border-radius: 20px;
     padding: 1.5625rem;
+    max-width: 404px;
 }
 
 .card-image {
@@ -62,6 +81,7 @@ body {
     grid-area: image;
     width: 100%;
     border-radius: 5%;
+    max-width: 350px;
 }
 
 .icon-view-container {
@@ -120,22 +140,21 @@ span:hover, .etherum-price-data p {
     background-color: rgba(0, 255, 247, 0.3);
 }
 
-@media (max-width:480px) {
-
-}
-
-@media (max-width:767px) {
-
-}
-
-@media (max-width:1024px) {
-
-}
-
-@media (max-width:1280px) {
-
-}
-
-@media (min-width:1281px) {
-
+@media (min-width: 700px) {
+    /* font-size control */
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .etherum-time-data p {
+        font-size: 1.3rem;
+    }
+    
+    .etherum-price-data p, .header-image p {
+        font-size: 1.5rem;
+    }
+    
+    .card-avatar {
+        font-size: 1rem;
+    }
 }
