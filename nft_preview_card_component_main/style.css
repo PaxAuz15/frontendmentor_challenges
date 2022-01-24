@@ -91,6 +91,10 @@ span {
     align-items: center;
 }
 
+.header-image, .header-image p, .card-data, .card-avatar {
+    margin-top: 25px;
+}
+
 .card-avatar {
     display: flex;
     width: 100%;
