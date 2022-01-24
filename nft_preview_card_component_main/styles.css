@@ -130,3 +130,28 @@ body {
     opacity: 1;
     background-color: rgba(0, 255, 247, 0.3);
 }
+
+/* mobile queries */
+@media (min-width:320px) and (max-width:375px) {
+    .card {
+        width: 80%
+    }
+}
+
+@media (max-width: 1210px) and (min-width: 975px) {
+    .card{
+        width: 25%;
+    }
+}
+
+@media (max-width: 975px) and (min-width: 875px) {
+    .card{
+        width: 28%;
+    }
+}
+
+@media (max-width: 875px) and (min-width: 775px) {
+    .card{
+        width: 35%;
+    }
+}
