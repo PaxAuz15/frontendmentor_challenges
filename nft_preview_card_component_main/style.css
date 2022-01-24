@@ -22,6 +22,98 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: var(--font-family);
+    background: var(--color-main-bg);
+    height: 100vh;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    background: var(--color-main-card-bg);
+    border-radius: 20px;
+    padding: 1.5625rem;
+}
+
+.card-image {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "image";
+    align-items: center;
+    justify-items: center;
+}
+
+.image-card, .icon-view-container {
+    grid-area: image;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.icon-view-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+}
+span {
+    color: var(--color-white-font);
+}
+
+.header-image p, .card-data p {
+    color: var(--first-color-primary);
+}
+
+.card-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.etherum-price-data, .etherum-time-data {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-avatar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-avatar-img {
+    width: 42px;
+    height: 40px;
+    border: 2px solid var(--color-white-font);
+    border-radius: 50%;
+}
+
+span:hover, .etherum-price-data p {
+    color: var(--second-color-primary);
+}
+
+.icon-view-container:hover {
+    opacity: 1;
+    background-color: rgba(0, 255, 247, 0.3);
 }
 
 @media (max-width:480px) {
