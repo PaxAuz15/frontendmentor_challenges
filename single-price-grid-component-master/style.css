@@ -2,6 +2,7 @@
 
 :root {
     --color-primary-cyan: hsl(179, 62%, 43%);
+    --color-seconday-cyan: hsl(179, 62%, 52%);
     --color-primary-bry: hsl(71, 73%, 54%);
     --color-neutral-gray: hsl(204, 43%, 93%);
     --color-neutral-blue: hsl(218, 22%, 67%);
@@ -34,9 +35,10 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    /* height: 80vh; */
 }
 
-.header-container, .content-container {
+.header-container, .subscription-container, .why-us-container {
     width: 100%;
     padding: 5%;
 }
@@ -47,8 +49,14 @@ body {
     border-top-right-radius: inherit;
 }
 
-.content-container {
+.subscription-container {
     background: var(--color-primary-cyan);
+    width: 100%;
+}
+
+.why-us-container {
+    background: var(--color-seconday-cyan);
+    width: 100%;
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
 }
